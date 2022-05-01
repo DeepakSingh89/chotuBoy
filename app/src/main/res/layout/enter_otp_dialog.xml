@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/dialogTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/heading_style"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            android:text="Outlet order Delivery Code"
+
+            />
+
+        <ImageView
+            android:id="@+id/closeDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            app:srcCompat="@drawable/ic_cross"/>
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/heading_style"
+        android:layout_marginTop="40dp"
+
+        android:layout_marginStart="10dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="Enter 4 digit outlet delivery code"
+
+        />
+
+    <TextView
+        android:id="@+id/orderId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/heading_style"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:textColor="@color/black"
+        android:text="Order ID: 647346"
+        android:gravity="center"
+
+        />
+
+    <com.alimuzaffar.lib.pin.PinEntryEditText
+        android:id="@+id/verifyPinEdtTxt"
+        android:layout_width="164dp"
+        android:layout_height="@dimen/margin_25"
+        android:layout_below="@+id/otpTxt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/transparent"
+        android:cursorVisible="false"
+        android:digits="1234567890"
+        android:focusable="true"
+        android:gravity="center_horizontal"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        android:maxLength="4"
+        android:textIsSelectable="false"
+        android:textSize="16sp"
+        app:pinAnimationType="popIn"
+        app:pinBackgroundIsSquare="true"
+        app:pinCharacterSpacing="12dp"
+        app:pinLineColors="@color/black_disabled"
+        app:pinLineStroke="2dp"
+        app:pinLineStrokeSelected="2dp"
+        app:pinTextBottomPadding="4dp" />
+    <Button
+        android:id="@+id/verifyOTp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/heading_style"
+        android:layout_marginTop="70dp"
+        android:layout_margin="@dimen/dp_30"
+        android:background="@drawable/button_shape1"
+        android:text="Verify"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/emptyCart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:visibility="gone"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_marginTop="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/large_heading_style"
+                android:text="@string/cart_message"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:padding="@dimen/dp_2"
+                android:textColor="@color/black"
+                />
+
+
+            <ImageView
+                android:layout_marginTop="@dimen/fivteen_15"
+                android:id="@+id/imgCart"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/app_logo" />
+            <Button
+
+                android:id="@+id/startBtn"
+                android:layout_marginTop="70dp"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:background="@drawable/rectangle_add_cart_btn"
+                android:text="@string/start_shopping_txt"
+                android:layout_gravity="center"
+                android:maxHeight="30dp"
+                android:visibility="gone"
+                android:textColor="@color/white"
+                android:paddingStart="@dimen/dp_20"
+                android:paddingEnd="@dimen/dp_20"/>
+
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerCartViewConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/margin_50"
+            />
+    </LinearLayout>
+</layout>

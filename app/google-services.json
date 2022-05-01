@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "960024225219",
+    "project_id": "chotupartner-bd7f5",
+    "storage_bucket": "chotupartner-bd7f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960024225219:android:87f75738a6c6a9aa3a8976",
+        "android_client_info": {
+          "package_name": "com.chotupartner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "960024225219-k27v5ecmt08t5tbjt7l716t7uo6hu24n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chotupartner",
+            "certificate_hash": "6ac113f487cb08dd0b3e4e1164ef4ab9bb5a8ac9"
+          }
+        },
+        {
+          "client_id": "960024225219-ldo34qkqcgdcvem5d389s38jidrq8ltv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chotupartner",
+            "certificate_hash": "01d852446851d8c43cbc47675060674344f5cd67"
+          }
+        },
+        {
+          "client_id": "960024225219-rcpeudvaeo8r7o6gvqj9g4t2sqeg03he.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxsZS8rWEVCFBmJdOae6475Fr8Jw7kQUY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "960024225219-rcpeudvaeo8r7o6gvqj9g4t2sqeg03he.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

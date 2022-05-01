@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/OrderShowLayOut"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/_10dp"
+    android:elevation="@dimen/_10dp"
+    android:orientation="vertical"
+    android:background="@drawable/cardview_shape"
+    >
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/GettingOrderedRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_10dp"
+        android:layout_marginLeft="@dimen/_10dp"
+        android:layout_marginRight="@dimen/_10dp"
+        android:layout_marginBottom="@dimen/_10dp"
+        android:padding="@dimen/_10dp" />
+
+
+</LinearLayout>

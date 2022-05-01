@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/cvLayout"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_20"
+        android:elevation="5dp"
+        app:cardBackgroundColor="@color/background_grey"
+        app:cardCornerRadius="@dimen/_20"
+        app:cardElevation="3dp"
+
+       >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingBottom="10dp">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_200"
+                android:gravity="center"
+                android:scaleType="fitXY"
+                android:src="@drawable/grocery_image_item"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/margin_30"
+                    android:layout_height="@dimen/margin_30"
+                    android:gravity="center"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+
+                    android:gravity="start"
+                    android:text="+91 9555555555"
+                    android:layout_marginLeft="@dimen/_10dp"
+                    android:textColor="@color/black" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/margin_30"
+                    android:layout_height="@dimen/margin_30"
+                    android:gravity="center"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:layout_marginLeft="10dp"
+                  />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:paddingBottom="@dimen/_10dp"
+                    android:gravity="start"
+                    android:text="V.D.H Store,Old Munsfi,Naya Ganj,,Ghaziabad,Uttar Pradesh,India"
+                    android:layout_marginLeft="@dimen/_10dp"
+                    android:textColor="@color/black" />
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="@dimen/_20"
+        android:layout_width="match_parent"
+        android:elevation="@dimen/_10dp"
+
+        app:cardCornerRadius="@dimen/_10dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="@dimen/_10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/margin_30"
+                android:layout_height="@dimen/margin_30"
+                android:gravity="center"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/ic_dashboard_black_24dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="start"
+
+                android:layout_gravity="center"
+                android:text="Privacy Policy"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_baseline_arrow_forward_ios_24"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="@dimen/_20"
+        android:layout_width="match_parent"
+        android:elevation="@dimen/_10dp"
+
+        app:cardCornerRadius="@dimen/_10dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="@dimen/_10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/margin_30"
+                android:layout_height="@dimen/margin_30"
+                android:gravity="center"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/ic_shopping_cart_icon_png_1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:layout_gravity="center"
+                android:text="About Us"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_baseline_arrow_forward_ios_24"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_margin="@dimen/_20"
+        android:layout_width="match_parent"
+        android:elevation="@dimen/_10dp"
+
+        app:cardCornerRadius="@dimen/_10dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="@dimen/_10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/margin_30"
+                android:layout_height="@dimen/margin_30"
+                android:gravity="center"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/ic_account_balance_wallet_24dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:layout_gravity="center"
+                android:text="Log Out"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_baseline_arrow_forward_ios_24"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

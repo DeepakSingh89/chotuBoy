@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.OtpVerificationActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_10dp"
+        android:layout_weight="1">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:gravity="center"
+            android:paddingTop="@dimen/margin_12"
+            android:text="@string/otp_sent_on_mobno"
+            android:textSize="@dimen/sp_14" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="mobile number"
+            android:textSize="@dimen/sp_14" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/mobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/mobileNumberTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="82858862133"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/changeNumberTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_15"
+                android:background="@drawable/btn_change_shape_draw"
+                android:paddingLeft="@dimen/dp_10"
+                android:paddingTop="@dimen/dp_2"
+                android:paddingRight="@dimen/dp_10"
+                android:paddingBottom="@dimen/dp_2"
+                android:text="Change" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="horizontal">
+
+                <!--<ProgressBar
+                    android:id="@+id/progressBar"
+                    style="@style/TextAppearance.AppCompat.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/waitingTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/margin_10"
+                    android:gravity="center"
+                    android:text="Waiting to auto verify OTP"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />-->
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/pin_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/_20"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/EnterOTP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/margin_10"
+                    android:layout_marginEnd="@dimen/margin_10"
+                    android:paddingLeft="@dimen/_20"
+                    android:text="Enter OTP"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:textStyle="normal" />
+
+                <com.alimuzaffar.lib.pin.PinEntryEditText
+                    android:id="@+id/verifyPinEdtTxt"
+                    android:layout_width="164dp"
+                    android:layout_height="@dimen/margin_25"
+                    android:layout_below="@+id/otpTxt"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@android:color/transparent"
+                    android:cursorVisible="false"
+                    android:digits="1234567890"
+                    android:focusable="true"
+                    android:gravity="center_horizontal"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:textIsSelectable="false"
+                    android:textSize="16sp"
+                    app:pinAnimationType="popIn"
+                    app:pinBackgroundIsSquare="true"
+                    app:pinCharacterSpacing="12dp"
+                    app:pinLineColors="@color/black_disabled"
+                    app:pinLineStroke="2dp"
+                    app:pinLineStrokeSelected="2dp"
+                    app:pinTextBottomPadding="4dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/resend"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_top_20"
+                android:background="@drawable/btn_resand_shape_draw"
+                android:gravity="center"
+                android:paddingLeft="@dimen/margin_30"
+                android:paddingRight="@dimen/margin_30"
+                android:text="@string/resend_otp"
+                android:textStyle="normal" />
+<!--            android:enabled="false"-->
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/vrfyPin_btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="@dimen/margin_top_30dp"
+            android:layout_marginEnd="@dimen/margin_top_30dp"
+            android:layout_marginTop="@dimen/margin_40"
+            android:background="@drawable/btn_shape_draw"
+            android:text="Login"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

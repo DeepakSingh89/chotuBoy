@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <!-- <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>-->
+    <color name="colorPrimary">#03A305</color>
+    <color name="colorPrimaryDark">#03A305</color>
+    <color name="colorAccent">#03A305</color>
+    <color name="unselected_color">#818282</color>
+    <color name="light_blue">#19CFE6</color>
+    <color name="tab_unselected">#D4D4D4</color>
+    <color name="dark_white">#D4D4D4</color>
+    <color name="bottom_gray">#808080</color>
+    <color name="hint_color">#CCCCCC</color>
+    <color name="vertical_line_color">#979797</color>
+    <color name="rimcolor">#A6F5FF</color>
+    <color name="black_color">#000000</color>
+    <color name="backTransparent">#DD000000</color>
+    <color name="lightblack">#B0000000</color>
+    <color name="profile_back_gray">#D6D6D6</color>
+    <color name="green_color">#4ee44e</color>
+    <color name="light_bg">#4ee44e</color>
+    <color name="profile_default_tint">#e0e0e0</color>
+    <color name="darkblue">#213763</color>
+    <color name="landmark_background_color">#16213763</color>
+    <color name="base_color">#F5F5F5</color>
+
+
+
+ <color name="dark_orange">#EB5406</color>
+ <color name="heavy_dark_orange">#dc5d01</color>
+ <color name="colorPrimaryText">#000</color>
+ <color name="Fully_dark_orange">#f37636</color>
+ <color name="black_secondary">#757575</color>
+ <color name="black_primary">#212121</color>
+ <color name="app_bg">#EAEDF2</color>
+ <color name="app_bg3">#FCE409</color>
+ <color name="app_bg2">#F4F5F7</color>
+ <color name="app_bg1">#dc5d01</color>
+ <color name="card_gray">#E7E3DE</color>
+ <color name="knowmorebck">#ebeaef</color>
+ <color name="new_black">#C8000000</color>
+ <color name="black">#000000</color>
+ <color name="project_black">#DA252525</color>
+ <color name="dark_gray">#aaa</color>
+ <color name="email_gray">#43AAAAAA</color>
+ <color name="edittextcolor">#33EBEBEB</color>
+ <color name="textcolor">#ffffff</color>
+ <color name="transparent">@android:color/transparent</color>
+ <color name="mdtp_transparent_black">#7f000000</color>
+ <color name="orange1">#ed854f</color>
+ <color name="orange">#f37636</color>
+ <color name="saffron">#f37636</color>
+ <color name="star_color">#f3b136</color>
+ <color name="green">#4ECE38</color>
+ <color name="scrollview_noriceboard">#ebcaef</color>
+ <color name="profile_background">#425b60</color>
+ <color name="profile_cardtext">#858688</color>
+ <color name="profile_cardview">#e9e9e9</color>
+ <color name="profile_background_color">#f0f0f0</color>
+ <color name="vedio_text_color">#6d6d6d</color>
+ <color name="red">#f12222</color>
+ <color name="test_fragment_card_bacckground">#f1e5df</color>
+ <color name="blue">#4080ff</color>
+ <color name="colorGray">#747474</color>
+ <color name="Imagebackground">#8c8c8c</color>
+ <color name="skyblue">#FF393FF2</color>
+ <color name="darkwhite">#ababae</color>
+ <color name="vediobackgroundColor">#e6e7e9</color>
+ <color name="home">#f6ece9</color>
+ <color name="cardviewbackground">#f1e5df</color>
+ <color name="homebackground">#EAEDF2</color>
+ <color name="vediobackground">#fef1eb</color>
+ <color name="vedioborder">#eeeae8</color>
+ <color name="vediobordertextcolor">#d0c5c1</color>
+ <color name="normalwhite">#ede9e7</color>
+ <color name="button_color">#2ba2af</color>
+ <color name="color_noticeboard">#62c8df</color>
+ <color name="button_color_noticeboard">#1f8a9e</color>
+ <color name="text_color_noticeboard">#292929</color>
+ <color name="text_color_noticeboard_normal">#282828</color>
+ <color name="white">#FFFFFF</color>
+ <color name="gradStart">#19AA8B</color>
+ <color name="color_video">#32A965</color>
+ <color name="gradStop">#23A7D8</color>
+ <color name="dashboardtop">#8daf9e</color>
+ <color name="Blue">#060661</color>
+ <color name="Black">#03000a</color>
+ <color name="color_hint">#919191</color>
+
+ <color name="black_disabled">#9E9E9E</color>
+ <color name="black_titles">#2b2b2b</color>
+
+ <color name="profile_background_top_color">#b4b200</color>
+
+
+ <color name="login_top_color">#b4b200</color>
+ <color name="fav_setting_color">#F06695</color>
+ <color name="prferences_setting_color">#6327CF</color>
+ <color name="background_grey">#eee</color>
+ <color name="colorSecondaryText">#888888</color>
+ <color name="freecharge_background_color">#f37636</color>
+ <color name="yellow">#FCE409</color>
+ <color name="project_yellow_color">#FFB400</color>
+
+
+ <color name="loginbutton">#00bff3</color>
+ <color name="link_color_payment">#2ba2af</color>
+
+ <color name="greenmoney">#1c8101</color>
+ <color name="redmoney">#ff0000</color>
+ <color name="bluemoney">#1c67ad</color>
+ <color name="email_color">#0273ff</color>
+ <color name="gender_background_profile">#3e7c02</color>
+ <color name="cash_background_color">#3e7c02</color>
+ <color name="simple_white">#666464</color>
+ <color name="birth_background_color">#ff8105</color>
+ <color name="since_background_color">#009e9c</color>
+ <color name="emergency_background_profile">#ff0000</color>
+ <color name="logout_backgroud_color">#580606</color>
+ <color name="app_bg_color">#9E9E9E</color>
+ <color name="phone_Background_color">#ff8105</color>
+ <color name="project_color">#2389ee</color>
+ <color name="red_money">#E91E63</color>
+ <!--
+ <item android:drawable="@color/SelectedColor" android:state_pressed="true"></item>
+ <item android:drawable="@color/SelectedColor" android:state_selected="true"></item>
+ <item android:drawable="@color/DefultColor"></item>-->
+
+
+ <!-- App Theme Color-->
+ <color name="colorTheme">#9374D1</color>
+ <color name="grey">#37000000</color>
+ <color name="toolbarTransparent">#00FFFFFF</color>
+ <!-- Summary-->
+ <color name="ratingBarColor">#fdc928</color>
+ <color name="instant_btn">#F79646</color>
+
+ <drawable name="clr_normal">#AAAAAA</drawable>
+ <drawable name="clr_pressed">#777777</drawable>
+
+</resources>

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/cardview_shape"
+    android:layout_margin="@dimen/_10dp"
+    android:paddingBottom="@dimen/margin_15">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dp_5"
+            android:padding="@dimen/dp_5"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:id="@+id/OrderedId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ordered Id : 123456"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/normal_txt"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/customerId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text=" #123456"
+                android:gravity="center"
+                android:textSize="@dimen/normal_txt"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/dp_5"
+            android:padding="@dimen/dp_5"
+            android:background="@drawable/layout_back_ground">
+
+            <TextView
+                android:id="@+id/TotStoreCont"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="99 Store"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textSize="@dimen/normal_txt"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/StoreArrow"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ic_chevron_right_black_24dp"
+                android:gravity="start"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10dp"
+        android:layout_marginLeft="@dimen/_10dp"
+        android:layout_marginRight="@dimen/_10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/Tv1Product_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Apple"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:padding="@dimen/dp_5"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normal_txt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Tv2ProductQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="2 kg"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:paddingStart="@dimen/dp_5"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normal_txt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Tv3ProductPrice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="165"
+            android:gravity="end"
+            android:layout_gravity="center_vertical"
+            android:paddingTop="5sp"
+            android:layout_weight="1"
+            android:paddingEnd="@dimen/_10dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normal_txt"
+            android:paddingStart="@dimen/dp_5"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bottom_gray"
+        android:layout_marginTop="@dimen/dp_5"
+        android:layout_marginLeft="@dimen/_10dp"
+        android:layout_marginRight="@dimen/_10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/five_5"
+        android:layout_marginLeft="@dimen/_10dp"
+        android:layout_marginRight="@dimen/_10dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/Tv4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Orange"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:padding="@dimen/dp_5"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normal_txt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Tv5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="2 kg"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:paddingStart="@dimen/dp_5"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normal_txt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Tv6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="50"
+            android:gravity="end"
+            android:layout_gravity="center_vertical"
+            android:paddingEnd="@dimen/_10dp"
+            android:paddingTop="5sp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normal_txt"
+            android:paddingStart="@dimen/dp_5"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:visibility="gone"
+        android:background="@color/bottom_gray"
+        android:layout_marginTop="@dimen/dp_5"
+        android:layout_marginLeft="@dimen/_10dp"
+        android:layout_marginRight="@dimen/_10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10dp"
+        android:layout_marginTop="@dimen/five_5"
+        android:layout_marginRight="@dimen/_10dp"
+        android:visibility="gone"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/Tv7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Tomato"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:padding="@dimen/dp_5"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normal_txt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Tv8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="2 kg"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:paddingStart="@dimen/dp_5"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normal_txt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Tv9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="250"
+            android:gravity="end"
+            android:layout_gravity="center_vertical"
+            android:paddingTop="5sp"
+            android:layout_weight="1"
+            android:paddingEnd="@dimen/_10dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normal_txt"
+            android:paddingStart="@dimen/dp_5"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:visibility="gone"
+        android:background="@color/bottom_gray"
+        android:layout_marginTop="@dimen/dp_5"
+        android:layout_marginLeft="@dimen/_10dp"
+        android:layout_marginRight="@dimen/_10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/five_5"
+        android:layout_marginLeft="@dimen/_10dp"
+        android:layout_marginRight="@dimen/_10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Total"
+            android:gravity="end"
+            android:layout_gravity="center_vertical"
+            android:paddingStart="@dimen/dp_5"
+            android:layout_weight="1"
+            android:paddingRight="@dimen/margin_30"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normal_txt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Tv5TotalProductPrice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="265"
+            android:gravity="end"
+            android:layout_gravity="center_vertical"
+            android:paddingTop="5sp"
+            android:paddingEnd="@dimen/_10dp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normal_txt"
+            android:paddingStart="@dimen/dp_5"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bottom_gray"
+        android:layout_marginTop="@dimen/dp_5"
+        android:layout_marginLeft="142dp"
+        android:layout_marginRight="@dimen/_10dp"/>
+
+
+
+
+
+</LinearLayout>

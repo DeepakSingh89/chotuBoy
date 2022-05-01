@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="order_statusfors_outlet">
+        <item>Select Order Status</item>
+        <item>Processing</item>
+        <item>Processed</item>
+        <item>Complete</item>
+    </string-array>
+
+</resources>
